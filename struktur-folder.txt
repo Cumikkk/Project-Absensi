@@ -1,0 +1,71 @@
+Project-Absensi/
+
+├── 📄 index.php
+
+├── 📄 logout.php
+
+├── 📄 README.md
+
+│
+
+├── 📁 auth/ (Autentikasi)
+
+│   └── 📄 login.php
+
+│
+
+├── 📁 config/ (Konfigurasi Sistem)
+
+│   └── 📄 koneksi.php
+
+│
+
+├── 📁 includes/ (Template & Komponen Bersama)
+
+│   ├── 📄 header.php
+
+│   ├── 📄 footer.php
+
+│   ├── 📄 sidebar-admin.php
+
+│   ├── 📄 sidebar-intern.php
+
+│   └── 📄 sidebar-staff.php
+
+│
+
+├── 📁 role/ (Role-based Dashboard & Fitur)
+
+│   ├── 📁 admin/ (Dashboard & Manajemen Admin)
+
+│   │   └── 📄 dashboard.php
+
+│   ├── 📁 intern/ (Dashboard & Fitur Intern)
+
+│   │   └── 📄 dashboard.php
+
+│   └── 📁 manajer/ (Dashboard & Fitur Manajer)
+
+│       └── 📄 dashboard.php
+
+│
+
+├── 📁 assets/ (File Statis)
+
+│   ├── 📁 img/
+
+│   │   └── 📄 favicon.png
+
+│   └── 📁 vendor/
+
+│       ├── bootstrap/ (CSS Framework Bootstrap)
+
+│       └── chartjs/ (Library Chart.js)
+
+│
+
+└── 📁 uploads/ (File Upload dari User)
+
+    ├── 📁 document/
+
+    └── 📁 image/
